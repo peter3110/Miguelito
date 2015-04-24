@@ -1,0 +1,2 @@
+1) gmcs -pkg:dotnet *.cs
+2) mono Form1.exe
