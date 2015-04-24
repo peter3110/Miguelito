@@ -1,0 +1,7 @@
+Hola miguelito
+
+Bienvenido a repositorios GitHub
+
+Leete algún manual de cómo funciona. Con las funciones básicas (pull, checkout, add, commit, etc.)
+
+
