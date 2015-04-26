@@ -59,10 +59,6 @@ namespace WindowsFormsApplication1
                     }
                 }
             }
-            btnSuma.Enabled = false;
-            btnResta.Enabled = false;
-            btnMultiplicacion.Enabled = false;
-            btnDivision.Enabled = false;
         }
         private void btnSuma_Click_1(object sender, EventArgs e)
         {
@@ -72,6 +68,10 @@ namespace WindowsFormsApplication1
                 txtCuenta.Clear();
                 txtCuenta.Focus();
                 operacion = '+';
+                btnSuma.Enabled = false;
+                btnResta.Enabled = false;
+                btnMultiplicacion.Enabled = false;
+                btnDivision.Enabled = false;
             }
             else
             {
@@ -86,6 +86,10 @@ namespace WindowsFormsApplication1
                 txtCuenta.Clear();
                 txtCuenta.Focus();
                 operacion = '-';
+                btnSuma.Enabled = false;
+                btnResta.Enabled = false;
+                btnMultiplicacion.Enabled = false;
+                btnDivision.Enabled = false;
             }
             else
             {
@@ -100,6 +104,10 @@ namespace WindowsFormsApplication1
                 txtCuenta.Clear();
                 txtCuenta.Focus();
                 operacion = '*';
+                btnSuma.Enabled = false;
+                btnResta.Enabled = false;
+                btnMultiplicacion.Enabled = false;
+                btnDivision.Enabled = false;
             }
             else
             {
@@ -114,6 +122,10 @@ namespace WindowsFormsApplication1
                 txtCuenta.Clear();
                 txtCuenta.Focus();
                 operacion = '/';
+                btnSuma.Enabled = false;
+                btnResta.Enabled = false;
+                btnMultiplicacion.Enabled = false;
+                btnDivision.Enabled = false;
             }
             else
             {
@@ -154,7 +166,7 @@ namespace WindowsFormsApplication1
                 else if (operacion == '/')
                 {
                     num2 = Convert.ToSingle(txtCuenta.Text);
-                    if (num2 > 0)
+                    if (num2 != 0)
                     {
                         resultado = num1 / num2;
                         txtCuenta.Text = Convert.ToString(resultado);
