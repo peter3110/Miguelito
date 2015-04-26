@@ -136,6 +136,8 @@ namespace WindowsFormsApplication1
         {
             txtCuenta.Clear();
             txtCuenta.Focus();
+            num1 = 0;
+            num2 = 0;
             btnSuma.Enabled = true;
             btnResta.Enabled = true;
             btnMultiplicacion.Enabled = true;
