@@ -14,3 +14,11 @@ C:\Users\Miguelito\Desktop\Colegio\Programacion\TP N°1 Original\WindowsFormsApp
 C:\Users\Miguelito\Desktop\Colegio\Programacion\TP N°1 Original\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Miguelito\Desktop\Colegio\Programacion\TP N°1 Original\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Miguelito\Desktop\Colegio\Programacion\TP N°1 Original\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Miguelito\Desktop\Colegio\Miguelito\TP_1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Miguelito\Desktop\Colegio\Miguelito\TP_1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Miguelito\Desktop\Colegio\Miguelito\TP_1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Miguelito\Desktop\Colegio\Miguelito\TP_1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Miguelito\Desktop\Colegio\Miguelito\TP_1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Miguelito\Desktop\Colegio\Miguelito\TP_1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Miguelito\Desktop\Colegio\Miguelito\TP_1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Miguelito\Desktop\Colegio\Miguelito\TP_1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache

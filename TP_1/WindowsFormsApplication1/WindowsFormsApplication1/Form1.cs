@@ -11,7 +11,7 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
-        float num1, num2, resultado;
+        float num1, num2, resultado, bienEscrito;
         char operacion;
         public Form1()
         {
@@ -64,14 +64,24 @@ namespace WindowsFormsApplication1
         {
             if (txtCuenta.Text != "")
             {
-                num1 = Convert.ToSingle(txtCuenta.Text);
-                txtCuenta.Clear();
-                txtCuenta.Focus();
-                operacion = '+';
-                btnSuma.Enabled = false;
-                btnResta.Enabled = false;
-                btnMultiplicacion.Enabled = false;
-                btnDivision.Enabled = false;
+                Single.TryParse(Convert.ToString(txtCuenta.Text), out bienEscrito);
+                if (bienEscrito != 0)
+                {
+                    num1 = Convert.ToSingle(txtCuenta.Text);
+                    txtCuenta.Clear();
+                    txtCuenta.Focus();
+                    operacion = '+';
+                    btnSuma.Enabled = false;
+                    btnResta.Enabled = false;
+                    btnMultiplicacion.Enabled = false;
+                    btnDivision.Enabled = false;
+                }
+                else
+                {
+                    MessageBox.Show("Math ERROR");
+                    txtCuenta.Clear();
+                    txtCuenta.Focus();
+                }
             }
             else
             {
@@ -82,14 +92,24 @@ namespace WindowsFormsApplication1
         {
             if (txtCuenta.Text != "")
             {
-                num1 = Convert.ToSingle(txtCuenta.Text);
-                txtCuenta.Clear();
-                txtCuenta.Focus();
-                operacion = '-';
-                btnSuma.Enabled = false;
-                btnResta.Enabled = false;
-                btnMultiplicacion.Enabled = false;
-                btnDivision.Enabled = false;
+                Single.TryParse(Convert.ToString(txtCuenta.Text), out bienEscrito);
+                if (bienEscrito != 0)
+                {
+                    num1 = Convert.ToSingle(txtCuenta.Text);
+                    txtCuenta.Clear();
+                    txtCuenta.Focus();
+                    operacion = '-';
+                    btnSuma.Enabled = false;
+                    btnResta.Enabled = false;
+                    btnMultiplicacion.Enabled = false;
+                    btnDivision.Enabled = false;
+                }
+                else
+                {
+                    MessageBox.Show("Math ERROR");
+                    txtCuenta.Clear();
+                    txtCuenta.Focus();
+                }
             }
             else
             {
@@ -100,14 +120,24 @@ namespace WindowsFormsApplication1
         {
             if (txtCuenta.Text != "")
             {
-                num1 = Convert.ToSingle(txtCuenta.Text);
-                txtCuenta.Clear();
-                txtCuenta.Focus();
-                operacion = '*';
-                btnSuma.Enabled = false;
-                btnResta.Enabled = false;
-                btnMultiplicacion.Enabled = false;
-                btnDivision.Enabled = false;
+                Single.TryParse(Convert.ToString(txtCuenta.Text), out bienEscrito);
+                if (bienEscrito != 0)
+                {
+                    num1 = Convert.ToSingle(txtCuenta.Text);
+                    txtCuenta.Clear();
+                    txtCuenta.Focus();
+                    operacion = '*';
+                    btnSuma.Enabled = false;
+                    btnResta.Enabled = false;
+                    btnMultiplicacion.Enabled = false;
+                    btnDivision.Enabled = false;
+                }
+                else
+                {
+                    MessageBox.Show("Math ERROR");
+                    txtCuenta.Clear();
+                    txtCuenta.Focus();
+                }
             }
             else
             {
@@ -118,14 +148,24 @@ namespace WindowsFormsApplication1
         {
             if (txtCuenta.Text != "")
             {
-                num1 = Convert.ToSingle(txtCuenta.Text);
-                txtCuenta.Clear();
-                txtCuenta.Focus();
-                operacion = '/';
-                btnSuma.Enabled = false;
-                btnResta.Enabled = false;
-                btnMultiplicacion.Enabled = false;
-                btnDivision.Enabled = false;
+                Single.TryParse(Convert.ToString(txtCuenta.Text), out bienEscrito);
+                if (bienEscrito != 0)
+                {
+                    num1 = Convert.ToSingle(txtCuenta.Text);
+                    txtCuenta.Clear();
+                    txtCuenta.Focus();
+                    operacion = '/';
+                    btnSuma.Enabled = false;
+                    btnResta.Enabled = false;
+                    btnMultiplicacion.Enabled = false;
+                    btnDivision.Enabled = false;
+                }
+                else
+                {
+                    MessageBox.Show("Math ERROR");
+                    txtCuenta.Clear();
+                    txtCuenta.Focus();
+                }
             }
             else
             {
@@ -147,46 +187,62 @@ namespace WindowsFormsApplication1
         {
             if(txtCuenta.Text != "")
             {
-                if (operacion == '+')
+                Single.TryParse(Convert.ToString(txtCuenta.Text), out bienEscrito);
+                if (bienEscrito != 0)
                 {
-                    num2 = Convert.ToSingle(txtCuenta.Text);
-                    resultado = num1 + num2;
-                    txtCuenta.Text = Convert.ToString(resultado);
-                }
-                else if (operacion == '-')
-                {
-                    num2 = Convert.ToSingle(txtCuenta.Text);
-                    resultado = num1 - num2;
-                    txtCuenta.Text = Convert.ToString(resultado);
-                }
-                else if (operacion == '*')
-                {
-                    num2 = Convert.ToSingle(txtCuenta.Text);
-                    resultado = num1 * num2;
-                    txtCuenta.Text = Convert.ToString(resultado);
-                }
-                else if (operacion == '/')
-                {
-                    num2 = Convert.ToSingle(txtCuenta.Text);
-                    if (num2 != 0)
+                    if (operacion == '+')
                     {
-                        resultado = num1 / num2;
+                        num2 = Convert.ToSingle(txtCuenta.Text);
+                        resultado = num1 + num2;
                         txtCuenta.Text = Convert.ToString(resultado);
                     }
-                    else
+                    else if (operacion == '-')
                     {
-                        MessageBox.Show("Math ERROR");
+                        num2 = Convert.ToSingle(txtCuenta.Text);
+                        resultado = num1 - num2;
+                        txtCuenta.Text = Convert.ToString(resultado);
+                    }
+                    else if (operacion == '*')
+                    {
+                        num2 = Convert.ToSingle(txtCuenta.Text);
+                        resultado = num1 * num2;
+                        txtCuenta.Text = Convert.ToString(resultado);
+                    }
+                    else if (operacion == '/')
+                    {
+                        num2 = Convert.ToSingle(txtCuenta.Text);
+                        if (num1 != 0 && num2 != 0)
+                        {
+                            resultado = num1 / num2;
+                            txtCuenta.Text = Convert.ToString(resultado);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Math ERROR");
+                            txtCuenta.Clear();
+                            txtCuenta.Focus();
+                        }
                     }
                 }
-                btnSuma.Enabled = true;
-                btnResta.Enabled = true;
-                btnMultiplicacion.Enabled = true;
-                btnDivision.Enabled = true;
+                else
+                {
+                    MessageBox.Show("Math ERROR");
+                    txtCuenta.Clear();
+                    txtCuenta.Focus();
+                }
             }
             else
             {
                 MessageBox.Show("Math ERROR");
+                txtCuenta.Clear();
+                txtCuenta.Focus();
             }
+            btnSuma.Enabled = true;
+            btnResta.Enabled = true;
+            btnMultiplicacion.Enabled = true;
+            btnDivision.Enabled = true;
+            num1 = 0;
+            num2 = 0;
         }
     }
 }
