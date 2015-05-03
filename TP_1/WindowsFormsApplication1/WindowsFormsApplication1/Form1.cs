@@ -190,13 +190,22 @@ namespace WindowsFormsApplication1
                 if (txtCuenta.Text != "-" && txtCuenta.Text != ",")
                 {
                     num1 = Convert.ToSingle(txtCuenta.Text);
-                    txtCuenta.Clear();
-                    txtCuenta.Focus();
-                    operacion = '/';
-                    btnSuma.Enabled = false;
-                    btnResta.Enabled = false;
-                    btnMultiplicacion.Enabled = false;
-                    btnDivision.Enabled = false;
+                    if (num1 != 0)
+                    {
+                        txtCuenta.Clear();
+                        txtCuenta.Focus();
+                        operacion = '/';
+                        btnSuma.Enabled = false;
+                        btnResta.Enabled = false;
+                        btnMultiplicacion.Enabled = false;
+                        btnDivision.Enabled = false;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Math ERROR");
+                        txtCuenta.Clear();
+                        txtCuenta.Focus();
+                    }
                 }
                 else
                 {
@@ -250,7 +259,7 @@ namespace WindowsFormsApplication1
                     }
                     else if (operacion == '/')
                     {
-                        if (num1 != 0 && num2 != 0)
+                        if (num2 != 0)
                         {
                             resultado = num1 / num2;
                             txtCuenta.Text = Convert.ToString(resultado);
@@ -260,8 +269,6 @@ namespace WindowsFormsApplication1
                             MessageBox.Show("Math ERROR");
                             txtCuenta.Clear();
                             txtCuenta.Focus();
-                            num1 = 0;
-                            num2 = 0;
                         }
                     }
                 }
