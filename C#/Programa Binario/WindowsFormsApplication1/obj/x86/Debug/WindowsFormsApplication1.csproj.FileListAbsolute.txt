@@ -1,0 +1,14 @@
+c:\users\adm\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\users\adm\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\users\adm\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+c:\users\adm\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\users\adm\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\users\adm\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+c:\users\adm\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+Z:\Programación - TIC\Programa Binario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+Z:\Programación - TIC\Programa Binario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+Z:\Programación - TIC\Programa Binario\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+Z:\Programación - TIC\Programa Binario\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+Z:\Programación - TIC\Programa Binario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+Z:\Programación - TIC\Programa Binario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+Z:\Programación - TIC\Programa Binario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
