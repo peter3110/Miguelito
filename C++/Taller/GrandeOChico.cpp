@@ -1,24 +1,21 @@
 #include <iostream>
 #include <time.h>
 #include <cstdlib>
-#include <assert.h>
 using namespace std;
 
 int main(){
     int n, a, max;
     srand(time (NULL));
-    
-    INGRESARNUMERO:;
+
     cout << "Ingresa un numero del 1 al 100:\t";
     cin >> max;
     n = rand()%max;
     if(max > 1 && max <= 100)
     {
-        cout << "Ingrese un numero que cree cercano:\t";
+        cout << "Se ha generado un numero aleatorio entre el 1 y " << max << ":\t";
         cin >> a;
         while(a != n)
         {
-				assert( 1 < a && a <= 100);
                 if(a<n)
                 {
                      cout << "El numero es mas grande, intentalo denuevo:\t";
@@ -30,13 +27,9 @@ int main(){
                      cin >> a;
                 }
         }
-        if(a == n)
-        {
-             cout << "Bien!! El numero que ingresaste es igual al numero generado, este era:\t" << n << endl;
-        }
+        cout << "Bien!! El numero que ingresaste es igual al numero generado, este era:\t" << n << endl;
     } else {
-		cout << "Esta ingresando un nÃºmero no permitido" << endl;
-		goto INGRESARNUMERO;
-	}      
-
+		cout << "Esta ingresando un número no permitido" << endl;
+	}     
+    system("pause"); 
 }
