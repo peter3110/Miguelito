@@ -13,3 +13,11 @@ C:\Users\Miguelito\Desktop\Colegio\Miguelito\C#\Dia,Mes,Año x Edad\WindowsForms
 C:\Users\Miguelito\Desktop\Colegio\Miguelito\C#\Dia,Mes,Año x Edad\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
 C:\Users\Miguelito\Desktop\Colegio\Miguelito\C#\Dia,Mes,Año x Edad\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
 C:\Users\Miguelito\Desktop\Colegio\Miguelito\C#\Dia,Mes,Año x Edad\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+U:\Programación - TIC\Dia,Mes,Año x Edad\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+U:\Programación - TIC\Dia,Mes,Año x Edad\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+U:\Programación - TIC\Dia,Mes,Año x Edad\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+U:\Programación - TIC\Dia,Mes,Año x Edad\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+U:\Programación - TIC\Dia,Mes,Año x Edad\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+U:\Programación - TIC\Dia,Mes,Año x Edad\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+U:\Programación - TIC\Dia,Mes,Año x Edad\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+U:\Programación - TIC\Dia,Mes,Año x Edad\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

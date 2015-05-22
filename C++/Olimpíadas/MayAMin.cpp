@@ -7,6 +7,7 @@ int main()
 	while(true)
 	{
 		string word;
+		cout << "Ingrese una palabra/nombre:\t";
 		cin >> word;
 		int largo = word.length();
 		for(int i = 0;i < largo;i++)
@@ -16,7 +17,7 @@ int main()
 				word[i] = word[i]+32;
 			}
 		}
-		cout << word << endl;
+		cout << "Palabra en minuscula:\t" << word << endl;
 	}
 	return 0;
 }

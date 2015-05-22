@@ -11,8 +11,8 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
-        int mesdehoy = 0, diadehoy = 0, aniodehoy = 0;
-        int aniofinal = 0, mesquecumple = 0, diaquecumple = 0;
+        int mesdehoy, diadehoy, aniodehoy;
+        int aniofinal, mesquecumple, diaquecumple, AnioSeleccionado, anio2000 = 2000;
         public Form1()
         {
             InitializeComponent();
@@ -44,23 +44,29 @@ namespace WindowsFormsApplication1
 
         private void btnEdad_Click(object sender, EventArgs e)
         {
-            aniofinal = (aniodehoy - Convert.ToInt32(cmbAnio.SelectedItem.ToString())) - 1;
-            mesquecumple = Convert.ToInt32(cmbMes.SelectedIndex)+1;
-            diaquecumple = Convert.ToInt32(cmbDia.SelectedIndex)+1;
-            if (diaquecumple != diadehoy && mesquecumple != mesdehoy)
+            AnioSeleccionado = Convert.ToInt32(cmbAnio.SelectedItem.ToString());
+            if (AnioSeleccionado <= anio2000)
             {
-                if (diaquecumple <= diadehoy && mesquecumple <= mesdehoy)
+                aniofinal = (aniodehoy - Convert.ToInt32(cmbAnio.SelectedItem.ToString())) - 1;
+            }
+            else {
+                aniofinal = aniodehoy - Convert.ToInt32(cmbAnio.SelectedItem.ToString());
+            }
+            mesquecumple = Convert.ToInt32(cmbMes.SelectedIndex);
+            diaquecumple = Convert.ToInt32(cmbDia.SelectedIndex);
+            if (mesquecumple < mesdehoy)
+            {
+                if (diaquecumple < diadehoy)
                 {
                     lblEdadFinal.Text = "Usted Tiene: " + Convert.ToString(aniofinal + 1) + " años";
                 }
-                else
-                {
+                else {
                     lblEdadFinal.Text = "Usted Tiene: " + Convert.ToString(aniofinal) + " años";
                 }
             }
             else
             {
-                lblEdadFinal.Text = "Usted Tiene: " + Convert.ToString(aniofinal+1) + " años";
+                lblEdadFinal.Text = "Usted Tiene: " + Convert.ToString(aniofinal) + " años";
             }      
         }
     }
